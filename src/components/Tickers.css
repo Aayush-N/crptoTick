@@ -2,9 +2,15 @@
 	list-style-type: none;
 	padding: 0;
 	display: inline-flex;
-	border: 10px solid gold;
+	border: 10px 10px solid gold;
 	margin-top: 3%;
 }
+
+.logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
 
 .cryptocurrencybitcoin{
 

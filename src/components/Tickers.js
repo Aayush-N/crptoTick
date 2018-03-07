@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Tickers.css'
 import Cryptocurrency from './Crypto';
 import axios from 'axios';
-
+import logo from '../logo.svg';
 
 class Tickers extends Component {
 
@@ -18,6 +18,7 @@ class Tickers extends Component {
 	                percent_change_1h: "0",
 	                percent_change_24h: "0",
 	                percent_change_7d: "0",
+	                last_updated: "0000",
 	                price_inr: "1",
 	            },
 	            {
@@ -28,6 +29,7 @@ class Tickers extends Component {
 	                percent_change_1h: "0",
 	                percent_change_24h: "0",
 	                percent_change_7d: "0",
+	                last_updated: "0000",
 	                price_inr: "1",
 	            },
 	            {
@@ -38,6 +40,7 @@ class Tickers extends Component {
 	                percent_change_1h: "0",
 	                percent_change_24h: "0",
 	                percent_change_7d: "0",
+	                last_updated: "0000",
 	                price_inr: "1",
 	            }
         	]
@@ -70,10 +73,10 @@ class Tickers extends Component {
 		return (
 			<div className="ticker-container">
 				<ul className="tickers">{tickers}</ul>
-				<p>Information updated every 5 minutes courtesy of coinmarketcap.com</p>
+				<p>Information automatically updates every 5 minutes courtesy of coinmarketcap.com</p>
 				<hr/>
+				<img src={logo} className="logo" alt="logo" />
 				<p>Built with React</p>
-				<img src="favicon.ico"/>
 			</div>
 		);
 	}
