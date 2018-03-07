@@ -71,6 +71,9 @@ class Tickers extends Component {
 			<div className="ticker-container">
 				<ul className="tickers">{tickers}</ul>
 				<p>Information updated every 5 minutes courtesy of coinmarketcap.com</p>
+				<hr/>
+				<p>Built with React</p>
+				<img src="favicon.ico"/>
 			</div>
 		);
 	}
