@@ -1,0 +1,31 @@
+.tickers {
+	list-style-type: none;
+	padding: 0;
+	display: inline-flex;
+	border: 10px solid gold;
+	margin-top: 3%;
+}
+
+.cryptocurrencybitcoin{
+
+    outline: gold solid 10px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+}
+
+.cryptocurrencyethereum{
+
+    outline: gold solid 10px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+}
+
+.cryptocurrencyripple{
+
+    outline: gold solid 10px;
+    margin: auto;    
+    padding: 20px;
+    text-align: center;
+}
